@@ -1,3 +1,6 @@
 /.well-known/apple-app-site-association
   Content-Type: application/json
   Access-Control-Allow-Origin: *
+
+/join/*
+  Content-Type: text/html

@@ -5,7 +5,7 @@
       {
         "appID": "2C7C8Z63GY.com.drinkwatch.app",
         "paths": [
-          "/invite/*",
+          "/join/*",
           "/auth/callback"
         ]
       }
