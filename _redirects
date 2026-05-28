@@ -1,1 +1,1 @@
-/join/*  /join.html  200
+/join/*  /join/?code=:splat  302
