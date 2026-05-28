@@ -110,8 +110,17 @@
 
   <script>
     (function() {
-      var match = window.location.pathname.match(/\/join\/([A-Za-z0-9]{6})/);
-      var code = match ? match[1].toUpperCase() : '';
+      var code = '';
+      var pathMatch = window.location.href.match(/\/join\/([A-Za-z0-9]{6})/);
+      if (pathMatch) {
+        code = pathMatch[1].toUpperCase();
+      } else {
+        var params = new URLSearchParams(window.location.search);
+        var qCode = params.get('code');
+        if (qCode && /^[A-Za-z0-9]{6}$/.test(qCode)) {
+          code = qCode.toUpperCase();
+        }
+      }
       if (code) {
         document.getElementById('invite-code').textContent = code;
       }
