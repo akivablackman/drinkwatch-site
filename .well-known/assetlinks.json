@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.drinkwatch.app",
+      "sha256_cert_fingerprints": [
+        "E6:9E:28:25:CA:83:39:3D:8F:8D:F0:AC:19:31:A4:D6:C9:D3:65:D3:3E:4D:46:43:7E:79:EF:63:B2:B0:55:8A"
+      ]
+    }
+  }
+]
