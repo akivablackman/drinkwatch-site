@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.drinkwatch.app",
       "sha256_cert_fingerprints": [
-        "E6:9E:28:25:CA:83:39:3D:8F:8D:F0:AC:19:31:A4:D6:C9:D3:65:D3:3E:4D:46:43:7E:79:EF:63:B2:B0:55:8A"
+        "E6:9E:28:25:CA:83:39:3D:8F:8D:F0:AC:19:31:A4:D6:C9:D3:65:D3:3E:4D:46:43:7E:79:EF:63:B2:B0:55:8A",
+        "A5:41:14:9D:40:3E:C9:BE:29:F0:DB:71:17:1F:92:5E:40:FA:D1:A5:80:74:15:2F:14:1D:5A:D2:10:01:79:08"
       ]
     }
   }
